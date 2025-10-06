@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class addizione {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.print("Inserisci un numero: ");
+        double a = scan.nextDouble();
+
+        System.out.print("Inserisci un numero: ");
+        double b = scan.nextDouble();
+
+        double risultato = a + b;
+        System.out.println("Risultato: " + risultato);
+    }
+}
